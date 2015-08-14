@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel name="alitv1" class="com.cyou.paycallback.channel.AlitvCallbackHandler">
+		<version name="1.0">
+			
+			<RequestModule>GET</RequestModule>
+			<SecretStringModule>SORT_KEY_VALUE</SecretStringModule>
+			<SecretModule name="BYTES_MD5">
+				<Charset>GBK</Charset>
+			</SecretModule>
+			<ResultModule>
+			</ResultModule>
+			<ChannelEntry>
+				<RequestCharset></RequestCharset>
+				<MustParam></MustParam>
+				<SecretParam></SecretParam>
+				<SignParam></SignParam>
+				<PassThroughName></PassThroughName>
+				<OrderIdName></OrderIdName>
+				<AmountName></AmountName>
+				<ThirdOrderIdName></ThirdOrderIdName>
+				<ChnnelID></ChnnelID>
+				<ChannelPayWayMapper></ChannelPayWayMapper>
+			</ChannelEntry>
+		</version>
+		
+		<version name="2.0">
+			<RequestModule>GET</RequestModule>
+			<SecretStringModule>SORT_KEY_VALUE</SecretStringModule>
+			<SecretModule name="BYTES_MD5">
+				<Charset>GBK</Charset>
+			</SecretModule>
+			<ResultModule>
+			</ResultModule>
+			<ChannelEntry>
+				<RequestCharset></RequestCharset>
+				<MustParam></MustParam>
+				<SecretParam></SecretParam>
+				<SignParam></SignParam>
+				<PassThroughName></PassThroughName>
+				<OrderIdName></OrderIdName>
+				<AmountName></AmountName>
+				<ThirdOrderIdName></ThirdOrderIdName>
+				<ChnnelID></ChnnelID>
+				<ChannelPayWayMapper></ChannelPayWayMapper>
+			</ChannelEntry>
+		</version>
+	</channel>
+</channels>
